@@ -1,8 +1,8 @@
 {
-  "name": "service-example",
-  "vendor": "vtex",
+  "name": "grupovintequatro",
+  "vendor": "hiringcoders202124",
   "version": "0.2.0",
-  "title": "Service Example",
+  "title": "API grupo 24",
   "description": "Reference app for VTEX IO Services",
   "mustUpdateAt": "2018-01-04",
   "categories": [],
@@ -19,7 +19,14 @@
     {
       "name": "outbound-access",
       "attrs": {
-        "host": "httpstat.us",
+        "host": "portal.vtexcommercestable.com.br",
+        "path": "/api/catalog/pvt/*"
+      }
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "i6328uam31.execute-api.us-east-2.amazonaws.com",
         "path": "*"
       }
     },

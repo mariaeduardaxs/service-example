@@ -1,10 +1,12 @@
+// importa os clients da VTEX IO
 import { IOClients } from '@vtex/api'
 
-import Status from './status'
+// importa os leads da aws
+import Leads from './leads'
 
-// Extend the default IOClients implementation with our own custom clients.
+// exporta os leads da aws (get) e publica dentro do IO
 export class Clients extends IOClients {
-  public get status() {
-    return this.getOrSet('status', Status)
+  public get leads() {
+    return this.getOrSet('leads', Leads)
   }
 }

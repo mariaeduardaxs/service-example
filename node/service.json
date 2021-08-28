@@ -1,13 +1,18 @@
 {
   "memory": 256,
   "ttl": 10,
-  "timeout": 2,
+  "timeout": 20,
   "minReplicas": 2,
   "maxReplicas": 4,
   "workers": 1,
   "routes": {
-    "status": {
-      "path": "/_v/status/:code",
+    "leads": {
+      "path": "/prod/leads",
+      "public": true
+    },
+
+    "lead": {
+      "path": "/lead",
       "public": true
     }
   }

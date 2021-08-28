@@ -22,7 +22,9 @@
   },
   "devDependencies": {
     "@types/node": "^12.12.21",
+    "@vtex/api": "^6.44.0",
     "@vtex/prettier-config": "^0.3.6",
+    "@vtex/tsconfig": "^0.5.6",
     "eslint": "^7.16.0",
     "eslint-config-vtex": "^12.9.3",
     "husky": "^4.3.6",
